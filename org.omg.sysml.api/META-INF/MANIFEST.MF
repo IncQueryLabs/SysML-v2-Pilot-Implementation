@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SysML Api
+Bundle-SymbolicName: org.omg.sysml.api
+Bundle-Version: 1.0.0
+Bundle-ClassPath: sysml-v2-api-client-all.jar
+Bundle-Vendor: OMG
+Export-Package: com.google.gson,
+ okhttp3,
+ org.omg.sysml,
+ org.omg.sysml.api,
+ org.omg.sysml.auth,
+ org.omg.sysml.model
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.omg.sysml.api
